@@ -13,13 +13,13 @@ This project folder uses a Deep Neural Network model to analyze the effectivenes
    * How many neurons, layers, and activation functions did you select for your neural network model, and why? In my optimized version, I used 12 neurons on hidden layer 1 and hidden layer 2, and 16 neurson on the hidden layer 3. I increased the number of neurson from 6 on hidden layer 1 and 2 in the baseline model to see if this would increase performance. I also added a third layer to the Neural Network to see if this would produce a better outcome. Finally, I adjusted the activation functions on the hidden layer to Sigmoid and the closing layer to RElu to see if this improved the outcome, but it did not. 
    * Were you able to achieve the target model performance? I was not. The best I was able to get to was 72%, which was with the baseline model. Below are the results.
 
-[Baseline Model Results]https://github.com/SethBoswell/Neural_Network_Charity_Analysis/blob/main/Images/baseline%20model%20results.png)
+[Baseline Model Results](https://github.com/SethBoswell/Neural_Network_Charity_Analysis/blob/main/Images/baseline%20model%20results.png)
 
    * What steps did you take to try and increase model performance? I dropped the 'ORGANIZATION' variable because it did not provide additional information to help train the model. I then increased the number of neurons, added another hidden layer, and changed the activation functions. Below is the setup and the results, which weren't as good as the baseline model.
 
-[Optimized Model Results]https://github.com/SethBoswell/Neural_Network_Charity_Analysis/blob/main/Images/optimized%20model%20results.png)
+[Optimized Model Results](https://github.com/SethBoswell/Neural_Network_Charity_Analysis/blob/main/Images/optimized%20model%20results.png)
 
-[Optimized Model Performance]https://github.com/SethBoswell/Neural_Network_Charity_Analysis/blob/main/Images/optimized%20model%20performance.png)
+[Optimized Model Performance](https://github.com/SethBoswell/Neural_Network_Charity_Analysis/blob/main/Images/optimized%20model%20performance.png)
 
 ### Summary
 In sum, my baseline model with 2 hidden layers, 6 neurons on each, and Relu activation functions on the hidden layers and Sigmoid on the closing layer was the most successful. If I had to guess, I think the Relu activation functions is probably better on the hidden layers than Sigmoid. 72% accuracy is not terrible, but I think other models would do better in this case.
