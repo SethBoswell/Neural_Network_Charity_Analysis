@@ -6,7 +6,6 @@ This project folder uses a Deep Neural Network model to analyze the effectivenes
 ## Results
 
 *Data Preprocessing
-  * What variable(s) are considered the target(s) for your model?
-    The target variable is the IS_SUCCESSFUL column, which is a binary indicator of whether a particular organization is effective with the donations they receive. 
-   *What variable(s) are considered to be the features for your model?
+  * What variable(s) are considered the target(s) for your model? The target variable is the IS_SUCCESSFUL column, which is a binary indicator of whether a particular organization is effective with the donations they receive. 
+   * What variable(s) are considered to be the features for your model?
    
